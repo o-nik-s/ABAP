@@ -1,0 +1,61 @@
+Системные поля
+SY-DATUM	Актуальная дата сервера приложений
+SY-UZEIT	Актуальное время сервера приложений
+SY-INDEX	Счетчик цикла DO
+SY-TABIX	Индекс в цикле LOOP
+SY-SUBRC	Код возврата, содержит результат последней выполненной операции. SY-SUBRC = 0 в случае успешного выполнения.
+SY-LANGU	Язык входа в систему
+SY-BATCH	Программа выполняется в фоновом режиме
+SY-BINPT	Программа выполняется в рамках пакетного ввода
+SY-REPID	Имя текущей программы
+SY-UNAME	Имя пользователя
+
+
+1. SY-CPAGE - Holds Current Page Number
+2. SY-CPROG - Contains Program Name
+3. SY-CUCOL - Cursor Position ( Column)
+4. SY-CUROW - Cursor Position (Line)
+5. SY-DATLO  -  Local Date for User
+6. SY-DATUM  - System Date
+7. SY-DATUD - Global Date Related To UTC ( GMT )
+8. SY-DBCNT - Number of entries read by DB Operation
+9. SY-DBNAM- Logical DB for ABAP/4 Program
+10. SY-DBSYS -  System DB System
+11. SY-DYNNR- Number of Current Screen
+12. SY-INDEX -  Number Of Loop passes
+13. SY-LANGU- SAP Log on Language Key
+14. SY-LILLI  - Number Of Current List Line
+15. SY-LINCT - Number Of List Lines
+16. SY-LINNO - Current Line for List Creation
+17. SY-LINSZ - Line Size of List
+18. SY-LISEL - Selected Line For Interactive List
+19. SY-LSIND - Number Of Secondary List
+20. SY-MANDT - Client Number For SAP Log On
+21.SY-MSGID  - Message ID
+22. SY-MSGTY - Message Type
+23. SY-MSGNO -  Message Number
+24. SY-MSGV1 - Message Variable1
+25. SY-MSGV2 - Message Variable2
+26. SY-MSGV3 - Message Variable3
+27. SY-MSGV4 - Message Variable4
+28. SY-OPSYS - Operating System
+29. SY-PAART -  Print Format
+30. SY-PAGCT - Page Size of List in Report Program
+31. SY-PAGNO - Current Page in the List
+33. SY-PDEST - Print Output Device
+34. SY-PFKEY - Run time Current F key Status
+35. SY-REPID - Report Name in ABAP
+36. SY-SAPRL -  SAP Release
+37. SY-SUBRC - Return Value after specific ABAP Statement
+38. SY-SYSID - SAP system ID
+39. SY-TABIX  -  Current line of Internal Table
+40. SY-TCODE - Current Transaction Code
+41. SY-TIMLO - Local Time Of User
+42. SY-TITLE  - Title of ABAP Program
+43. SY-TMAXL - Maximum entries in a Internal Table
+44. SY-TNAME  - Name Of Internal Table after first Access
+45. SY-UCOMM -Interact : Command field Function entry / Function code
+46. SY-ULINE  - Underline
+47. SY-UNAME - Session : SAP user from Log On
+48. SY-UZEIT  - System Time
+49. SY-VLINE  - Vertical Bar
